@@ -26,18 +26,28 @@ input.onButtonPressed(Button.A, function() {
                 neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
                 neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
                 neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Red))
+                neopixelStrip.show()
             }
         if (count - 1 == 2) {
-                neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
-                neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
-                neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
+            neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+            neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
+            neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
+            neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+                neopixelStrip.show()
             }
-        if (count - 1 == 2) {
-                neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
-                neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
+        if (count - 1 == 1) {
+            neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+            neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
+            neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+            neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+                neopixelStrip.show()
             }
-        if (count - 1 == 2) {
-                neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+        if (count - 1 == 0) {
+            neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+            neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
+            neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+            neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+                neopixelStrip.show()
             }
         basic.pause(500)
         count--    
